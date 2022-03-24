@@ -32,7 +32,6 @@ class Round {
   endRound() {
     var correctGuesses = this.calculatePercentCorrect();
     console.log(`** Round over! ** You answered ${correctGuesses}% of the questions correctly!`)
-    // return process.exit()
   }
 }
 
